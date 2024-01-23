@@ -1,0 +1,129 @@
+.SectionHero {
+  background-color: #ebebeb;
+  padding: 48px 0 0 0;
+}
+.Hero {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 0 74px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 96px;
+}
+.HeroImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.HeadingPrimary {
+  font-size: 46px;
+  font-weight: 600;
+  color: #212529;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 32px;
+}
+.HeroDescription {
+  margin-top: -80px;
+}
+.HeroPara {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 48px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.moreInfoBtn {
+  margin-left: 16px;
+}
+.contactUsBtn {
+  background-color: #321a74;
+  color: #ebebeb;
+}
+.contactUsBtn:hover {
+  background-color: #5b4890;
+  color: #f1f1f1;
+  transition: all 0.4s;
+}
+.moreInfoBtn:hover {
+  background-color: #fff;
+  transition: all 0.4s;
+}
+.contactUsBtn,
+.moreInfoBtn {
+  display: inline-block;
+  padding: 16px 36px;
+  border: none;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  /* transition: background-color 0.3s; */
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* .contactUsBtn.contactUsBtn.moreInfoBtn {
+  background-color: #;
+  color: #fff;
+} */
+@media (max-width: 1344px) {
+  .Hero {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .Hero {
+    gap: 48px;
+  }
+  .HeadingPrimary {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 960px) {
+  .Hero {
+    grid-template-columns: 1fr;
+    padding: 0 80px;
+    gap: 64px;
+  }
+
+  .HeroImg {
+    width: 60%;
+    height: 80%;
+  }
+  .HeroDescription {
+    margin-top: 0;
+  }
+
+  .HeroDescription,
+  .HeroImgbox {
+    text-align: center;
+  }
+  .HeadingPrimary {
+    font-size: 36px;
+  }
+}
+@media (max-width: 544px) {
+  .Hero {
+    padding: 0 32px;
+    grid-template-columns: 1fr;
+  }
+
+  .SectionHero {
+    padding: 24px 0 64px 0;
+  }
+
+  .contactUsBtn,
+  .moreInfoBtn {
+    padding: 24px 16px;
+  }
+  .HeroImg {
+    width: 80%;
+  }
+  .HeadingPrimary {
+    font-size: 32px;
+  }
+}

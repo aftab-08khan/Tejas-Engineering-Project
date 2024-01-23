@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+.Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 42px 48px;
+  background-color: #ebebeb;
+}
+.NewPage {
+  max-height: 100vh;
+  background-color: #0000001f;
+}
+.ProductCardImage {
+  max-width: 240px;
+  max-height: 230px;
+  display: flex;
+  align-self: center;
+}
+.ProductCardStock {
+  font-size: 12px;
+  background-color: #c2bad5;
+  text-transform: capitalize;
+  padding: 6px;
+  width: 224px;
+  color: #321a74;
+  border-radius: 0 0px 16px 0;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+.ProductMaterial {
+  font-size: 14px;
+  background-color: #c2bad5;
+  text-transform: capitalize;
+  padding: 6px;
+  width: 224px;
+  color: #321a74;
+  border-radius: 0 0px 16px 0;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1.1;
+}
+.ProductCard {
+  display: flex;
+  font-family: "Roboto";
+  flex-direction: column;
+  gap: 14px;
+  /* align-items: center; */
+  background-color: #28155d;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 18px 12px;
+  height: 100%;
+}
+.ProductCardTitle {
+  margin-top: 6px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+}
+.ProductCardTitle a {
+  color: #d6d1e3;
+  text-decoration: none;
+}
+.ProductCardDesc {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.ProductImg {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.HeadingPrimary {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  color: #28155d;
+  margin: 24px 0;
+}
+
+.ProductCardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 12px;
+}
+
+@media (max-width: 1146px) {
+  .ProductCardImage {
+    max-width: 320px;
+    max-height: 280px;
+  }
+}
+@media (max-width: 920px) {
+  .Container {
+    padding: 48px 96px;
+    gap: 42px;
+    place-items: center;
+  }
+
+  .ProductCard {
+    padding: 18px;
+  }
+}
+@media (max-width: 780px) {
+  .Container {
+    grid-template-columns: 1fr 1fr;
+    padding: 48px 64px;
+    gap: 24px;
+  }
+
+  .HeadingPrimary {
+    font-size: 24px;
+
+    margin: 18px 0;
+  }
+  .ProductCardDesc {
+    font-size: 13px;
+
+    line-height: 1.1;
+  }
+  .ProductCardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+}
+/* Media Query for screens below 680px */
+@media (max-width: 680px) {
+  .Container {
+    grid-template-columns: 1fr;
+  }
+
+  .ProductCardImage {
+    max-width: 280px;
+    max-height: 220px;
+  }
+  .ProductCardStock {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 560px) {
+  .Container {
+    gap: 20px;
+    padding: 28px 36px;
+  }
+  .ProductCard {
+    gap: 6px;
+  }
+  .ProductImg {
+    object-fit: fill;
+  }
+
+  .HeadingPrimary {
+    font-size: 23px;
+    margin: 12px 0;
+  }
+  .ProductCardDesc {
+    font-size: 13px;
+
+    line-height: 1.1;
+  }
+  .ProductCardStock {
+    margin: 0;
+    font-size: 11px;
+    width: 200px;
+  }
+  .ProductCardTitle {
+    margin-top: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .Container {
+    padding: 24px 30px;
+  }
+  .ProductCardImage {
+    max-width: 240px;
+    max-height: 200px;
+  }
+  .ProductCard {
+    padding-bottom: 12px;
+  }
+  .ProductCardStock {
+    font-size: 10px;
+  }
+  .HeadingPrimary {
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+  }
+}

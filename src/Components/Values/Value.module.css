@@ -1,0 +1,187 @@
+.valueHeading {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin: 22px 0;
+}
+.valueMainIcon {
+  background-color: #463f82;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  width: 78px;
+  height: 78px;
+}
+.container {
+  text-align: center;
+  max-width: 120rem;
+  padding: 0 5.2rem;
+  margin: 0 auto;
+  margin-top: 42px;
+}
+.center-text {
+  text-align: center;
+}
+
+.sectionValues {
+  gap: 12px;
+  padding: 12px 208px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.values {
+  height: 156px;
+}
+.sectionValue {
+  min-height: 400px;
+  gap: 16px;
+  max-width: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.headingTertairy {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 4px 0 4px 0;
+}
+#bd2 {
+  padding: 0 6px;
+  border-left: 2px solid #321a74;
+  border-right: 2px solid #321a74;
+}
+.valueInfo {
+  text-transform: capitalize;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  padding: 2px 6px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}
+.valueIcon {
+  background-color: #463f82;
+  color: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+.bgSection {
+  position: relative;
+}
+
+.bgSection::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+
+  background-image: url("/valueBg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 130%;
+}
+
+@media (max-width: 1120px) {
+  .sectionValues {
+    padding: 10px 120px;
+  }
+  .headingTertairy {
+    font-size: 17px;
+  }
+  .valueInfo {
+    font-size: 15px;
+  }
+  .sectionValue {
+    min-height: 352px;
+  }
+}
+@media (max-width: 940px) {
+  .sectionValues {
+    padding: 6px 50px;
+  }
+  .headingTertairy {
+    font-size: 16px;
+  }
+  .sectionValue {
+    min-height: 312px;
+  }
+  .valueInfo {
+    font-size: 14px;
+  }
+}
+/* @media (max-width: 767px) {
+  .sectionValue {
+    border: 0px !important;
+  }
+  .sectionValue div {
+    padding: 20px 0;
+    border-bottom: 1px solid #321a74;
+  }
+} */
+/* ... (your existing styles) ... */
+
+@media (max-width: 767px) {
+  .sectionValues {
+    padding: 6px 10px; /* Adjust padding for smaller screens */
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+  .sectionValue {
+    min-height: auto; /* Allow content to determine height */
+    margin-bottom: 20px; /* Add some space between sections on smaller screens */
+  }
+  .valueInfo {
+    font-size: 14px;
+  }
+  .headingTertairy {
+    font-size: 16px;
+  }
+  .valueIcon {
+    width: 32px;
+    height: 32px;
+  }
+  .values {
+    border-bottom: 2px solid #321a74;
+  }
+  #bd2 {
+    border: none;
+  }
+}
+
+/* Additional adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+  .valueMainIcon {
+    width: 60px;
+    height: 60px;
+  }
+  .valueIcon {
+    width: 28px;
+    height: 28px;
+  }
+  .valueHeading {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .sectionValues {
+    padding: 6px 5px; /* Further adjust padding for the smallest screens */
+  }
+  .valueInfo {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,225 @@
+.GridFooter {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  display: grid;
+  /* row-gap: 96px; */
+  column-gap: 68px;
+  align-items: start;
+  margin: 0 auto;
+  max-width: 1100px;
+  /* padding: 0 32px; */
+}
+.ffooter {
+  padding: 96px 72px;
+  background-color: #ebebeb;
+  color: #321a32;
+}
+
+.FooterHeading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.FooterNav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.FooterLink:link,
+.FooterLink:visited {
+  text-decoration: none;
+  font-size: 14px;
+  color: #463f82;
+  transition: all 0.3s;
+}
+
+.FooterLink:hover,
+.FooterLink:active {
+  color: #312a74;
+}
+
+.SocialLinks {
+  display: flex;
+  padding: 0;
+  gap: 20px;
+  list-style: none;
+}
+
+.FooterLogo {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.SocialIcon {
+  height: 24px;
+  width: 24px;
+}
+.Logo {
+  width: 50%;
+  height: auto;
+}
+.Copyright {
+  font-size: 11px;
+  line-height: 1.2;
+  color: #321a32;
+  /* margin-top: auto; */
+}
+
+.LogoCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.Address {
+  margin-bottom: 24px;
+}
+.blue {
+  display: inline-block;
+  height: 20px;
+  width: 80%;
+  background-color: #312a74;
+  margin-top: 0;
+}
+.grey {
+  display: inline-block;
+  height: 20px;
+  width: 20%;
+  background-color: #ebebeb;
+  margin-top: 0;
+}
+.hg {
+  height: 20px;
+}
+/* *****************************************/
+/* BELOW  960px ( Tablets) */
+/* ***************************************** */
+
+@media (max-width: 960px) {
+  .NavList {
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .NavLink:link,
+  .NavLink:visited {
+    font-size: 20px;
+  }
+
+  .ffooter {
+    padding: 56px 36px;
+  }
+  .GridFooter {
+    column-gap: 36px;
+  }
+  .FooterHeading {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+
+  .FooterLink:link,
+  .FooterLink:visited {
+    font-size: 12px;
+  }
+
+  .SocialIcon {
+    height: 22px;
+    width: 22px;
+  }
+}
+
+/* *****************************************/
+/* BELOW  704px (Smaller Tablets) */
+/* ***************************************** */
+@media (max-width: 704px) {
+  .GridFooter {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .NavCol {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .LogoCol,
+  .AddressCol {
+    grid-column: span 3;
+  }
+  .FooterHeading {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .FooterLink:link,
+  .FooterLink:visited {
+    font-size: 14px;
+  }
+}
+/* ... (your existing styles) ... */
+/* ... (your existing styles) ... */
+
+/* *****************************************/
+/* BELOW 540px (Mobile) */
+/* ***************************************** */
+@media (max-width: 540px) {
+  .ffooter {
+    padding: 36px 24px; /* Adjust padding for smaller screens */
+  }
+
+  .GridFooter {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Three columns in a row for smaller screens */
+    grid-template-rows: auto auto; /* Two rows to accommodate content */
+    column-gap: 20px; /* Adjust column gap for smaller screens */
+  }
+
+  .NavCol {
+    grid-row: span 2; /* Span two rows for the first column */
+    grid-column: span 1;
+    margin-bottom: 2rem;
+  }
+
+  .LogoCol,
+  .AddressCol {
+    grid-column: span 2; /* Span two columns for the other columns */
+  }
+  .Logo {
+    width: 40%;
+  }
+  .FooterHeading {
+    font-weight: 400;
+    font-size: 17px; /* Adjust font size for smaller screens */
+    margin-bottom: 24px; /* Adjust margin for smaller screens */
+  }
+
+  .FooterLink:link,
+  .FooterLink:visited {
+    font-size: 13px; /* Adjust font size for smaller screens */
+  }
+
+  .SocialIcon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .Copyright {
+    font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  .blue,
+  .grey {
+    height: 15px; /* Adjust height for smaller screens */
+  }
+}

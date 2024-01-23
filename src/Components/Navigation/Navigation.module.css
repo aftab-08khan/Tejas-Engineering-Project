@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #222;
+  border-top: 1px;
+  background: linear-gradient(to right, #312a74, #ebebeb);
+  text-decoration: none;
+  gap: 10px;
+  padding: 20px;
+  height: 72px;
+}
+
+.navbarOption {
+  color: #fff;
+  font-size: 20px;
+  border-right: 1px solid #fff;
+  padding: 0px 20px;
+}
+.navbarOption:nth-last-child(2) {
+  border: none;
+}
+.navbarOption a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbarOption a:hover {
+  color: #1d1946;
+  font-weight: bold;
+  border-bottom: 2px solid #ebebeb;
+  transition: all 0.4s;
+  padding-bottom: 6px;
+}
+
+.noBorderRight {
+  border-right: none;
+}
+/* dfgfgdsfg */
+
+/* Add a class for the last option in the navbar */
+/* ... (existing styles) ... */
+
+/* Add a class for the mobile menu background */
+.navbar.mobileMenuVisible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  position: fixed; /* Change to fixed to cover the entire page */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    50,
+    26,
+    116,
+    0.8
+  ); /* Semi-transparent background color */
+  z-index: 1000;
+  height: 100vh;
+}
+
+/* Change the color of the mobile icon to white */
+.mobileIcon {
+  display: none; /* Hide by default on larger screens */
+  cursor: pointer;
+  color: #312a74; /* Change icon color to white */
+  font-size: 28px;
+  padding: 20px;
+}
+.cancelButton {
+  display: none;
+}
+/* Change hamburger icon to cancel icon when mobile menu is visible */
+.mobileIcon.active {
+  color: #000; /* Change icon color to black */
+}
+
+/* Show the icons and hide the navbar by default on smaller screens */
+@media (max-width: 826px) {
+  .mobileIcon {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .navbarOption {
+    border: none;
+  }
+  .navbarOption:hover {
+    font-weight: bold;
+    border-bottom: 2px solid #ebebeb;
+    transition: all 0.4s;
+    padding-bottom: 6px;
+  }
+  /* Ensure full-width for the cancel button */
+  .cancelButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    border-radius: 8px;
+    height: 18px;
+    padding: 18px 32px;
+
+    background-color: #312a74;
+    color: #ebebeb;
+  }
+}
+
+/* ... (existing media queries) ... */
+
+/* at 1200px */
+@media (max-width: 1200px) {
+  .navbar {
+    gap: 8px;
+    padding: 18px;
+    height: 64px;
+  }
+  .navbarOption {
+    font-size: 17px;
+    padding: 0 16px;
+  }
+}
+/* at 940px */
+@media (max-width: 940px) {
+  .navbar {
+    gap: 6px;
+    padding: 14px;
+    height: 56px;
+  }
+  .navbarOption {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+}

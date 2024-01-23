@@ -1,0 +1,56 @@
+.vision {
+  background-image: url("/visionBg.png");
+  /* background-color: #D3D3D3; */
+  background-size: 65%;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-color: #f1f1f2;
+  padding: 4% 10%;
+  /* height: 700px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.visionTop h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin: 22px 0;
+}
+.visionMainIcon {
+  background-color: #463f82;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  width: 78px;
+  height: 78px;
+}
+.visionBottom {
+  display: grid;
+  place-items: center;
+}
+.vision p {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.visionTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center;   */
+}
+
+@media (max-width: 768px) {
+  .vision {
+    padding: 16px 24px;
+  }
+}

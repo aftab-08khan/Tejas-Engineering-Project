@@ -21,6 +21,12 @@ const Product = () => {
 
   const [modalImg, setModalImg] = useState([]);
 
+  const hanldeImageClick = (title) => {
+    console.log("hanldeImageClick", title);
+    setSelectedImg(title);
+    setModalIsOpen(true);
+  };
+
   // @@@@@
   const pathname = usePathname();
 
@@ -48,6 +54,23 @@ const Product = () => {
     getData(pathname);
   }, [pathname]);
 
+  useEffect(() => {
+    if (selectedImg === "Belly Side Braket") {
+      setModalImg(ModalStainer);
+    }
+    if (modalImg.length > 0) {
+      openModal();
+    }
+  }, [selectedImg]);
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
   console.log("data", data);
 
   const parameters = "crop=edges&cs=tinysrgb&fit=crop&fm=jpg&w=600&h=450";
@@ -67,9 +90,7 @@ const Product = () => {
             <div
               className={styles.ProductCard}
               key={index}
-              onClick={() => {
-                setModalIsOpen(true);
-              }}
+              onClick={() => hanldeImageClick(entry.title)}
             >
               {/* <a
                 href={entry.src}
@@ -95,14 +116,15 @@ const Product = () => {
         </div>
         <Footer />
       </section>
-      <div>
-        {/* <button onClick={openModal}>Open Modal</button> */}
-        <ModalGallery
-          isOpen={modalIsOpen}
-          onRequestClose={closeModal}
-          images={modalImg}
-        ></ModalGallery>
-      </div>
+      {modalIsOpen && (
+        <div style={{ position: "absolute", inset: 0 }}>
+          <ModalGallery
+            isOpen={modalIsOpen}
+            onRequestClose={closeModal}
+            images={modalImg}
+          ></ModalGallery>
+        </div>
+      )}
     </>
   );
 };

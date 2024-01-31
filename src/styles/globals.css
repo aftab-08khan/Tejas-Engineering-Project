@@ -36,7 +36,7 @@ body {
   height: 50vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .slide img {
@@ -80,6 +80,16 @@ body {
 /* Hide navigation arrows on small screens */
 @media (max-width: 600px) {
   .slide img {
-    width: 100%;
+    width: 80%;
   }
 }
+/* @media (max-width: 860px) {
+  .slide {
+    max-height: 40vh;
+  }
+}
+@media (max-width: 688px) {
+  .slide {
+    max-height: 35vh;
+  }
+} */

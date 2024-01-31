@@ -10,7 +10,7 @@ const NavigationBar = () => {
     { name: "Our Vision", link: "/#vision" },
     { name: "About Us", link: "/#about" },
     { name: "Our Products", link: "/#product" },
-    { name: "Our Machines", link: "/#machinesmain" },
+    { name: "Engineering Designs", link: "/#design" },
     { name: "Contact Us", link: "/contact" },
   ];
 

@@ -7,11 +7,9 @@ import { FaInstagram } from "react-icons/fa";
 import { LuMailSearch } from "react-icons/lu";
 import { CiFacebook } from "react-icons/ci";
 import { IoMdContact } from "react-icons/io";
-import Image from "next/image";
 import Header from "@/Components/Header/Header";
 import Footer from "@/Components/Footer/Footer";
 import NavigationBar from "@/Components/Navigation/NavigationBar";
-import Logo from "public/img/Logo2.png";
 const Form = () => {
   return (
     <>
@@ -93,7 +91,7 @@ const Form = () => {
               </div>
             </div>
             <div className={styles.socialIcons}>
-              <CiLinkedin className={styles.icon} />
+              {/* <CiLinkedin className={styles.icon} /> */}
               <a
                 href="https://www.instagram.com/tejasengineeringworks/?igsh=cGd0NThncDl2cjNw"
                 target="blank"

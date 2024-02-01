@@ -6,12 +6,12 @@ import Link from "next/link";
 const NavigationBar = () => {
   const navigationOptions = [
     { name: "Home", link: "/" },
+    { name: "Our Products", link: "/#product" },
+    { name: "Contact Us", link: "/contact" },
     { name: "Our Values", link: "/#values" },
     { name: "Our Vision", link: "/#vision" },
     { name: "About Us", link: "/#about" },
-    { name: "Our Products", link: "/#product" },
-    { name: "Our Machines", link: "/#machinesmain" },
-    { name: "Contact Us", link: "/contact" },
+    { name: "Engineering Designs", link: "/#design" },
   ];
 
   // State to manage the visibility of the mobile menu

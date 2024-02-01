@@ -5,6 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import logo from "public/img/Logo2.png";
 import Image from "next/image";
 const Footer = () => {
+  const CurrentDate = new Date().getFullYear();
   return (
     <>
       <footer className={styles.ffooter}>
@@ -35,15 +36,11 @@ const Footer = () => {
                   <FaFacebook className={styles.SocialIcon} />
                 </a>
               </li>
-              {/* <li>
-                <a href="#" className={styles.FooterLink}>
-                  <FaTwitter className={styles.SocialIcon} />
-                </a>
-              </li> */}
             </ul>
             <p className={styles.Copyright}>
-              Copyright &copy; <span className={styles.Year}>2024</span> by
-              Tejas Engineering Works. All rights reserved.
+              Copyright &copy;{" "}
+              <span className={styles.Year}>{CurrentDate}</span> by Tejas
+              Engineering Works. All rights reserved.
             </p>
           </div>
           <div className={styles.AddressCol}>
@@ -103,11 +100,7 @@ const Footer = () => {
                   Facebook
                 </a>
               </li>
-              {/* <li>
-                <a className={styles.FooterLink} href="#">
-                  Twitter
-                </a>
-              </li> */}
+
               <li>
                 <a
                   className={styles.FooterLink}

@@ -122,6 +122,8 @@
 }
 
 .CardStatus {
+  letter-spacing: 1px;
+  padding-bottom: 3px;
   font-size: 11px;
   color: #efefef;
 }

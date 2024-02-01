@@ -119,6 +119,13 @@ export const Stainlesssteelstrainers = {
       size: " Size: As Per requirement",
       material: "Material: Stainless Steel ",
     },
+    {
+      src: "/All Types Of Febrications/SS Falafel Makers1.jpg",
+      title: "SS Falafel Maker",
+      desc: "SCOOP & DROP: Simply scoop up some falafel, form it appropriately, then use your thumb to pull the lever to drop the falafel in your fryer or pan.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel ",
+    },
   ],
 };
 export const Stainlesssteelcanister = {
@@ -126,30 +133,30 @@ export const Stainlesssteelcanister = {
   products: [
     {
       src: "/Stainless Steel Canister/Oval Shape Frame.JPG",
-      title: "Smash Cup",
-      desc: "The perfect tool for your mixing glass to create stirred drinks; from the collection ",
-      size: "Size:measures 6 'by 3.75'; dishwasher safe",
-      material: "Material: Made of heavy gauge stainless steel",
+      title: "Oval Shape Frame",
+      desc: "use for canister. ",
+      size: "Size: as per requirement.",
+      material: "Material: stainless steel",
     },
     {
       src: "/Stainless Steel Canister/SIX Shape Frame.JPG",
-      title: "SS Hawthorne",
-      desc: "Hawthorne strainer allows you to pour cocktails like a pro; from the collection World Champion Bartender",
-      size: "Size: Measures 5 'x4.25'; dishwasher safe",
-      material: "Material: Heavy gauge stainless steel",
+      title: "Six Shape Frame",
+      desc: "use for canister. ",
+      size: "Size: as per requirement.",
+      material: "Material: stainless steel",
     },
     {
       src: "/Stainless Steel Canister/Square Shape Frame.JPG",
-      title: "Apple cutter",
-      desc: "Uses For Product Vegetables and apple cutter and peeler The slicer can perfectly cut fruit slices of suitable size when making pies, and can also make salads",
-      size: " Size: As Per requirement",
+      title: "Square Shape Frame",
+      desc: "use for canister. ",
+      size: "Size: as per requirement.",
       material: "Material: Stainless Steel ",
     },
     {
       src: "/Stainless Steel Canister/SS Canister Dabba.jpg",
-      title: "Cheese Grater",
-      desc: "This Grater is use to grate Ginger, cheese, Garlic, Nutmeg, Chocolate Etc. and Easy to Use. Durable construction an ideal kitchen commodity.",
-      size: " Size: As Per requirement",
+      title: "SS Canister Dabba",
+      desc: "SS multipurpose canisters jars with side through.",
+      size: " Size: Available in 7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24.",
       material: "Material: Stainless Steel ",
     },
   ],
@@ -159,7 +166,7 @@ export const StainlessSteelSinkStrainers = {
   products: [
     {
       src: "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS F D Rectangular.jpg",
-      title: "SS Floor Drain Rectangular ",
+      title: "SS Floor Drain Rectangular",
       desc: "Stainless steel deodorant floor drain. Made of stainless steel, multi-layer black frosted paint process, more wear-resistant, scratch-resistant.",
       size: " Size: As Per requirement",
       material: "Material: Stainless Steel ",
@@ -173,7 +180,7 @@ export const StainlessSteelSinkStrainers = {
     },
     {
       src: "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS Sink Strainer.jpg",
-      title: "SS sink strainer",
+      title: "SS flower sink strainer",
       desc: "Flower Shape Sink Strainers SS.Stainless Steel Mesh Uniquely Designed to fit. No more blocked sink, bath or Basin.",
       size: " Size: As Per requirement",
       material: "Material: Stainless Steel ",
@@ -187,14 +194,14 @@ export const StainlessSteelSinkStrainers = {
     },
     {
       src: "/Stainless Steel Sink Strainers/SS Spill Box.jpg",
-      title: "SS Spil Box ",
+      title: "SS Spil Box",
       desc: "Stainles Steel 304 Grade Bathroom Floor Water Drain Grating Fern Matte.",
       size: " Size: As Per requirement",
       material: "Material: Stainless Steel ",
     },
     {
       src: "/Stainless Steel Sink Strainers/Floor Drain.jpg",
-      title: "Floor Drain ",
+      title: "Floor Drain",
       desc: "Stainless steel floor drain plain square covers & bathroom/toilet accessories.",
       size: " Size: As Per requirement",
       material: "Material: Stainless Steel ",
@@ -228,9 +235,23 @@ export const MildSteelAccessories = {
     {
       src: "/Mild Steel Accessories/MS Folding Hinges/MS Folding Hinges.jpg",
       title: "MS folding Hinges",
-      desc: "The small, solid and strong corner struts are enough to be installed as any shelf, such as bookcase, garden shelf, table and chair corner.",
+      desc: "MS Folding Hinge Notebook Table Leg Brackets, Desk Chair, Feet Extension, Self Locking Furniture.",
       size: " Hole Size: 5mm.Thickness: 2 mm. Size:68*12mm . Box contents: 4 x Corner Brackets",
       material: "Material: Mild Steel & Stainless Steel",
+    },
+    {
+      src: "/Mild Steel Accessories/MS C Clamp.jpg",
+      title: "MS C Clamp",
+      desc: "The c-clamp kit is an essential tool for metal and wood bonding,cutting,welding and nailing activities.",
+      size: 'with a wide 1.38-2.36"(35mm-60mm) clamping range.',
+      material: "Material: Mild Steel & Stainless Steel",
+    },
+    {
+      src: "/Mild Steel Accessories/SS Handle.jpg",
+      title: "SS Handle",
+      desc: "these handles are ideal for using on doors and wooden cabinets.We make available these SS door handle for clients in different sizes and designs.",
+      size: "Size: as per requirement",
+      material: "Material: Stainless Steel",
     },
   ],
 };
@@ -267,7 +288,261 @@ export const CocoNutScraper = {
     },
   ],
 };
-export const ModalStainer = [
-  "https://images.unsplash.com/photo-1683009427500-71296178737f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
-  "https://plus.unsplash.com/premium_photo-1674728198545-8fa4796b9297?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8",
+export const Fabrications = {
+  heading: "All types of Fabrications",
+  products: [
+    {
+      src: "/All Types Of Febrications/metter Box.JPG",
+      title: "Letter box",
+      desc: "All in 1 Multipurpose Letter Box/Suggestion Box/Complaint Box/Donation Box with Lock Table Top or Wall Mount .",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/All Types Of Febrications/MS Air vent Grill.jpg",
+      title: "MS Air Vent grill",
+      desc: "Metal Air Vent Grille with Fly Screen Ducting Ventilation Cover Comes with Anti-insect Mesh Simple To Fit.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel ",
+    },
+    {
+      src: "/All Types Of Febrications/Concrete Form works PVC Cone.JPG",
+      title: "Concrete Form Work PVC cone",
+      desc: "PVC Roof flashing Components.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel ",
+    },
+    {
+      src: "/All Types Of Febrications/SS H Burner.jpg",
+      title: "SS H Burner",
+      desc: "Modern Home products GGDLB Dual Stainless Steel H Burner.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/All Types Of Febrications/Electric meter box 1.JPG",
+      title: "Metering Box",
+      desc: "Meter Box Double Door.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/All Types Of Febrications/locker 1.JPG",
+      title: "Locker",
+      desc: "Electronic Safe Locker.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/All Types Of Febrications/k1.jpg",
+      title: "Knife",
+      desc: " Perfect for cutting large slices of bread, Ice cream, also cut many fruits and vegetables.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+  ],
+};
+export const Accessories = {
+  heading: "Accessories",
+  products: [
+    {
+      src: "/Cutlery holder/Cutlery holder.jpeg",
+      title: "Cutlery Holder",
+      desc: "This can be your multi purpose holder, it can hold cutlery pieces very well or you can even keep pens, paint brushes, pens.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/Cutlery holder/R.jpeg",
+      title: "Cutlery Holder",
+      desc: "This can be your multi purpose holder, it can hold cutlery pieces very well or you can even keep pens, paint brushes, pens.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/Cutlery holder/OIP.jpeg",
+      title: "Cutlery Holder",
+      desc: "This can be your multi purpose holder, it can hold cutlery pieces very well or you can even keep pens, paint brushes, pens.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+    {
+      src: "/Cutlery holder/Cutlery holder.jpeg",
+      title: "Cutlery Holder",
+      desc: "This can be your multi purpose holder, it can hold cutlery pieces very well or you can even keep pens, paint brushes, pens.",
+      size: " Size: As Per requirement",
+      material: "Material: Stainless Steel",
+    },
+  ],
+};
+// Slider Img
+// CasserolefiltersAccessories
+export const ModalOilCan = [
+  "/Casserole Fitters Accessories/Oil Can Handle 1.JPG",
+  "/Casserole Fitters Accessories/Oil Can Handle.JPG",
 ];
+export const ModalBellySideBraket = [
+  "/Casserole Fitters Accessories/Belly Side Bracket.JPG",
+];
+export const ModalJugChach = [
+  "/Casserole Fitters Accessories/jug Chach.JPG",
+  ,
+];
+export const ModalMangoSideBracket = [
+  "/Casserole Fitters Accessories/Mango Side Braket.JPG",
+];
+export const ModalPipeHandle = [
+  "/Casserole Fitters Accessories/Pipe Handle.JPG",
+];
+export const ModalStripHandle = [
+  "/Casserole Fitters Accessories/Strip Handle.JPG",
+];
+export const ModalRegularBracket = [
+  "/Casserole Fitters Accessories/Regular Side Bracket.JPG",
+];
+export const ModalRoyalHandle = [
+  "/Casserole Fitters Accessories/Royal Handle.JPG",
+];
+export const ModalWireBracketHandle = [
+  "/Casserole Fitters Accessories/wire bracket handle.JPG",
+];
+export const ModalSideStripsLock = [
+  "/Casserole Fitters Accessories/Side Strips Lock.JPG",
+];
+// Stainlesssteelstrainers
+export const ModalSmashCup = [
+  "/Stainless Steel Strainers/Smash Cup.jpg",
+  "/Stainless Steel Strainers/Smash Cup1.jpg",
+  "/Stainless Steel Strainers/Smash Cup2.jpg",
+];
+export const ModalSSFalafelMaker = [
+  "/All Types Of Febrications/SS Falafel Makers1.jpg",
+  "/All Types Of Febrications/SS Falafel Maker.jpg",
+];
+export const ModalSSHawthorne = [
+  "/Stainless Steel Strainers/Hawthorne.jpg",
+  "/Stainless Steel Strainers/SS Hawthorne.jpg",
+];
+export const ModalApplecutter = [
+  "/Stainless Steel Strainers/Apple Cutter.jpg",
+  "/Stainless Steel Strainers/Apple Cutter/Apple 2.jpg",
+  "/Stainless Steel Strainers/Apple Cutter/Apple1.jpg",
+];
+export const ModalCheeseGrater = [
+  "/Stainless Steel Strainers/Cheese Grater.jpg",
+  "/Stainless Steel Strainers/Chees Grater/Cheese1.jpg",
+  "/Stainless Steel Strainers/Chees Grater/Cheese 2.jpg",
+];
+export const ModalMashersoilStrainer = [
+  "/Stainless Steel Strainers/Mashers &Oil Strainer.jpg",
+];
+export const ModalLimejuicer = [
+  "/Stainless Steel Strainers/Lime 2.jpg",
+  "/Stainless Steel Strainers/Lime Juicer/LIme 1.jpg",
+  "/Stainless Steel Strainers/Lime Juicer/Lime Juicer.jpg",
+];
+// Stainlesssteelcanister
+export const ModalOvalShapeFrame = [
+  "/Stainless Steel Canister/Oval Shape Frame.JPG",
+];
+export const ModalSixShapeFrame = [
+  "/Stainless Steel Canister/SIX Shape Frame.JPG",
+];
+export const ModalSquareShapeFrame = [
+  "/Stainless Steel Canister/Square Shape Frame.JPG",
+];
+export const ModalSSCanisterDabba = [
+  "/Stainless Steel Canister/SS Canister Dabba.jpg",
+];
+//  StainlessSteelSinkStrainers
+
+export const ModalSSFloorDrainRectangular = [
+  "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS F D Rectangular.jpg",
+  "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS Floor Drain Rectangular.jpg",
+];
+export const ModalSSsinkstrainer = [
+  "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS Sink S.jpg",
+  "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS Sink S1.jpg",
+  // "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS Sink Strainer.jpg",
+];
+export const ModalSSflowersinkstrainer = [
+  "/Stainless Steel Sink Strainers/SS Kitchen Drain/SS Sink Strainer.jpg",
+];
+export const ModalSSantiblockingfloorDrain = [
+  "/Stainless Steel Sink Strainers/SS Anti Blocking Floor Drain Bathroom.jpg",
+];
+export const ModalSSSpilBox = [
+  "/Stainless Steel Sink Strainers/SS Spill Box.jpg",
+];
+export const ModalFloorDrain = [
+  "/Stainless Steel Sink Strainers/Floor Drain.jpg",
+];
+// MildSteelAccessories
+
+export const ModalMSSeals = ["/Mild Steel Accessories/MS Seals.JPG"];
+export const ModalMSCornerS = [
+  "/Mild Steel Accessories/MS Corner Struts/MS Corner S.jpg",
+  "/Mild Steel Accessories/MS Corner Struts/MS Corner S2.jpg",
+  "/Mild Steel Accessories/MS Corner Struts/MS Corner Struts1.jpg",
+];
+export const ModalMSLockerHinges = [
+  "/Mild Steel Accessories/Locker Hinges.JPG",
+];
+export const ModalMSfoldingHinges = [
+  "/Mild Steel Accessories/MS Folding Hinges/MS Folding Hinges.jpg",
+  "/Mild Steel Accessories/MS Folding Hinges/MS Folding Hinges 1.jpg",
+];
+export const ModalMSCClamp = [
+  "/Mild Steel Accessories/MS C Clamp.jpg",
+  "/Mild Steel Accessories/MS C Clamp1.jpg",
+];
+export const ModalSSHandle = ["/Mild Steel Accessories/SS Handle.jpg"];
+
+// CocoNutScraper
+export const ModalCocoNutScraper = [
+  "/CocoNut Scraper/COCONUT SCRAPER/coco 2.jpeg",
+  "/CocoNut Scraper/COCONUT SCRAPER/COCO.jpg",
+  "/CocoNut Scraper/COCONUT SCRAPER/COCo1.jpg",
+  "/CocoNut Scraper/COCONUT SCRAPER/COCONUT Scraper.jpg",
+  "/CocoNut Scraper/COCONUT SCRAPER/COCONUT1.jpg",
+];
+export const ModalCoconutmeatslicer = [
+  "/CocoNut Scraper/Coconut Meat Slicer.jpg",
+  "/CocoNut Scraper/Coconut meat Slicer (2).jpg",
+];
+// Fabrications
+export const ModalKnife = [
+  "/All Types Of Febrications/k1.jpg",
+
+  "/All Types Of Febrications/Knife.jpeg",
+];
+export const ModalLatterbox = [
+  "/All Types Of Febrications/metter Box.JPG",
+  "/All Types Of Febrications/Metter box1.JPG",
+  "/All Types Of Febrications/Metter Box 2.JPG",
+];
+export const ModalMSAirVentgrill = [
+  "/All Types Of Febrications/MS Air vent Grill.jpg",
+];
+export const ModalConcreteFormWorkPVCcone = [
+  "/All Types Of Febrications/Concrete Form works PVC Cone.JPG",
+];
+export const ModalSSHBurner = ["/All Types Of Febrications/SS H Burner.jpg"];
+export const ModalMeteringBox = [
+  "/All Types Of Febrications/Electric meter box 1.JPG",
+  "/All Types Of Febrications/Electric metter box 2.JPG",
+  "/All Types Of Febrications/electric metter box.JPG",
+];
+export const ModalLocker = [
+  "/All Types Of Febrications/locker 1.JPG",
+  "/All Types Of Febrications/Locker.JPG",
+  "/All Types Of Febrications/Locker 2.JPG",
+];
+// Accesories
+export const ModalCutleryHolder = [
+  "/Cutlery holder/Cutlery holder.jpeg",
+  "/Cutlery holder/R.jpeg",
+  "/Cutlery holder/OIP.jpeg",
+];
+// export const Modal = [];
+// export const Modal = [];

@@ -51,7 +51,7 @@ const ModalGallery = ({ isOpen, onRequestClose, images }) => {
 
       <div class="slider">
         <div class="slides" ref={slidesRef}>
-          {images.map((image, index) => (
+          {images?.map((image, index) => (
             <div class="slide">
               <img src={image} alt={`Image ${index + 1}`} />
             </div>

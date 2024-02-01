@@ -7,7 +7,7 @@ import Logo from "public/img/logo.png";
 const ProductData = [
   {
     link: "/Product",
-    ImgSrc: "/img/Product1.jpg",
+    ImgSrc: "/Casserole Fitters Accessories/h4.jpg",
     title: "Casserole filters Accessories",
     status: "Discover Now",
     description:
@@ -22,11 +22,10 @@ const ProductData = [
   },
   {
     link: "/Product",
-    ImgSrc: "/img/Product2.jpg",
-    title: "cutlery holder",
+    ImgSrc: "/Cutlery holder/OIP2.jpeg",
+    title: "Accessories",
     status: "Discover Now",
-    description:
-      "Explore our high-quality stainless steel products designed for durability and precision in engineering applications.",
+    description: "All types of Accessories.",
   },
   {
     link: "/Product",
@@ -54,11 +53,11 @@ const ProductData = [
   },
   {
     link: "/Product",
-    ImgSrc: "/img/Product4.jpg",
+    ImgSrc: "/All Types Of Febrications/locker 1.JPG",
     title: "fabrications",
     status: "Discover Now",
     description:
-      "Explore our high-quality stainless steel products designed for durability and precision in engineering applications.",
+      " All in 1 Multipurpose Letter Box, Suggestion Box,MS Air Vent Grill & many more products.",
   },
   {
     link: "/Product",

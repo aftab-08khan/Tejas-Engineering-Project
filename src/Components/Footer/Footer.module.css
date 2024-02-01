@@ -165,8 +165,6 @@
     font-size: 14px;
   }
 }
-/* ... (your existing styles) ... */
-/* ... (your existing styles) ... */
 
 /* *****************************************/
 /* BELOW 540px (Mobile) */
@@ -177,36 +175,33 @@
   }
 
   .GridFooter {
-    grid-template-columns: repeat(
-      3,
-      1fr
-    ); /* Three columns in a row for smaller screens */
-    grid-template-rows: auto auto; /* Two rows to accommodate content */
-    column-gap: 20px; /* Adjust column gap for smaller screens */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 20px;
   }
 
   .NavCol {
-    grid-row: span 2; /* Span two rows for the first column */
+    grid-row: span 2;
     grid-column: span 1;
     margin-bottom: 2rem;
   }
 
   .LogoCol,
   .AddressCol {
-    grid-column: span 2; /* Span two columns for the other columns */
+    grid-column: span 2;
   }
   .Logo {
     width: 40%;
   }
   .FooterHeading {
     font-weight: 400;
-    font-size: 17px; /* Adjust font size for smaller screens */
-    margin-bottom: 24px; /* Adjust margin for smaller screens */
+    font-size: 17px;
+    margin-bottom: 24px;
   }
 
   .FooterLink:link,
   .FooterLink:visited {
-    font-size: 13px; /* Adjust font size for smaller screens */
+    font-size: 13px;
   }
 
   .SocialIcon {
@@ -215,11 +210,11 @@
   }
 
   .Copyright {
-    font-size: 10px; /* Adjust font size for smaller screens */
+    font-size: 12px;
   }
 
   .blue,
   .grey {
-    height: 15px; /* Adjust height for smaller screens */
+    height: 15px;
   }
 }

@@ -21,7 +21,7 @@ body {
   max-width: 800px;
   margin: auto;
   overflow: hidden;
-  border: 2px solid #ddd; /* Optional: Add a border */
+  border: 2px solid #ddd; 
 }
 
 .slides {
@@ -32,11 +32,11 @@ body {
 .slide {
   min-width: 100%;
   box-sizing: border-box;
-  transition: opacity 0.5s ease-in-out; /* Add opacity transition for fade effect */
+  transition: opacity 0.5s ease-in-out; 
   height: 50vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .slide img {
@@ -66,7 +66,6 @@ body {
   border-radius: 2px 0 0 2px;
 }
 
-/* Add hover effect for better visibility */
 .slider .prev:hover,
 .slider .next:hover {
   background: rgba(0, 0, 0, 0.7);
@@ -80,6 +79,7 @@ body {
 /* Hide navigation arrows on small screens */
 @media (max-width: 600px) {
   .slide img {
-    width: 100%;
+    width: 80%;
   }
 }
+

@@ -11,14 +11,57 @@ import {
   StainlessSteelSinkStrainers,
   MildSteelAccessories,
   CocoNutScraper,
-  ModalStainer,
+  ModalOilCan,
+  ModalBellySideBraket,
+  ModalJugChach,
+  ModalMangoSideBracket,
+  ModalPipeHandle,
+  ModalStripHandle,
+  ModalRoyalHandle,
+  ModalRegularBracket,
+  ModalWireBracketHandle,
+  ModalSideStripsLock,
+  ModalSmashCup,
+  ModalSSHawthorne,
+  ModalApplecutter,
+  ModalCheeseGrater,
+  ModalMashersoilStrainer,
+  ModalLimejuicer,
+  ModalOvalShapeFrame,
+  ModalSixShapeFrame,
+  ModalSSFloorDrainRectangular,
+  ModalSSsinkstrainer,
+  ModalSSflowersinkstrainer,
+  ModalSSantiblockingfloorDrain,
+  ModalSSSpilBox,
+  ModalFloorDrain,
+  ModalSquareShapeFrame,
+  ModalSSCanisterDabba,
+  ModalMSSeals,
+  ModalMSCornerS,
+  ModalMSLockerHinges,
+  ModalMSfoldingHinges,
+  ModalMSCClamp,
+  ModalSSHandle,
+  ModalCocoNutScraper,
+  ModalCoconutmeatslicer,
+  Fabrications,
+  ModalLatterbox,
+  ModalMSAirVentgrill,
+  ModalConcreteFormWorkPVCcone,
+  ModalSSHBurner,
+  ModalMeteringBox,
+  ModalLocker,
+  ModalSSFalafelMaker,
+  Accessories,
+  ModalCutleryHolder,
+  ModalKnife,
 } from "@/productsData";
 import { CasserolefiltersAccessories } from "@/productsData";
 import ModalGallery from "@/Components/Modal";
 const Product = () => {
   const [selectedImg, setSelectedImg] = useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-
   const [modalImg, setModalImg] = useState([]);
 
   const hanldeImageClick = (title) => {
@@ -47,16 +90,106 @@ const Product = () => {
       setData(MildSteelAccessories);
     } else if (url === "/CoconutScraper") {
       setData(CocoNutScraper);
+    } else if (url === "/fabrications") {
+      setData(Fabrications);
+    } else if (url === "/Accessories") {
+      setData(Accessories);
     }
   };
 
   useEffect(() => {
     getData(pathname);
   }, [pathname]);
-
+  //
   useEffect(() => {
-    if (selectedImg === "Belly Side Braket") {
-      setModalImg(ModalStainer);
+    if (selectedImg === "Oil Can Handle") {
+      setModalImg(ModalOilCan);
+    } else if (selectedImg === "Belly Side Braket") {
+      setModalImg(ModalBellySideBraket);
+    } else if (selectedImg === "Jug Chach") {
+      setModalImg(ModalJugChach);
+    } else if (selectedImg === "Mango Side Bracket") {
+      setModalImg(ModalMangoSideBracket);
+    } else if (selectedImg === "Pipe Handle") {
+      setModalImg(ModalPipeHandle);
+    } else if (selectedImg === "Strip Handle") {
+      setModalImg(ModalStripHandle);
+    } else if (selectedImg === "Regular Side Bracket") {
+      setModalImg(ModalRegularBracket);
+    } else if (selectedImg === "Royal Handle") {
+      setModalImg(ModalRoyalHandle);
+    } else if (selectedImg === "Wire Bracket Handle") {
+      setModalImg(ModalWireBracketHandle);
+    } else if (selectedImg === "Side Strips Lock") {
+      setModalImg(ModalSideStripsLock);
+    } else if (selectedImg === "Smash Cup") {
+      setModalImg(ModalSmashCup);
+    } else if (selectedImg === "SS Hawthorne") {
+      setModalImg(ModalSSHawthorne);
+    } else if (selectedImg === "Apple cutter") {
+      setModalImg(ModalApplecutter);
+    } else if (selectedImg === "Cheese Grater") {
+      setModalImg(ModalCheeseGrater);
+    } else if (selectedImg === "Mashers & oil Strainer") {
+      setModalImg(ModalMashersoilStrainer);
+    } else if (selectedImg === "Lime juicer") {
+      setModalImg(ModalLimejuicer);
+    } else if (selectedImg === "Oval Shape Frame") {
+      setModalImg(ModalOvalShapeFrame);
+    } else if (selectedImg === "Six Shape Frame") {
+      setModalImg(ModalSixShapeFrame);
+    } else if (selectedImg === "SS Floor Drain Rectangular") {
+      setModalImg(ModalSSFloorDrainRectangular);
+    } else if (selectedImg === "SS sink strainer") {
+      setModalImg(ModalSSsinkstrainer);
+    } else if (selectedImg === "SS flower sink strainer") {
+      setModalImg(ModalSSflowersinkstrainer);
+    } else if (selectedImg === "SS anti blocking floor Drain") {
+      setModalImg(ModalSSantiblockingfloorDrain);
+    } else if (selectedImg === "SS Spil Box") {
+      setModalImg(ModalSSSpilBox);
+    } else if (selectedImg === "Floor Drain") {
+      setModalImg(ModalFloorDrain);
+    } else if (selectedImg === "Square Shape Frame") {
+      setModalImg(ModalSquareShapeFrame);
+    } else if (selectedImg === "SS Canister Dabba") {
+      setModalImg(ModalSSCanisterDabba);
+    } else if (selectedImg === "MS Seals") {
+      setModalImg(ModalMSSeals);
+    } else if (selectedImg === "MS Corner S") {
+      setModalImg(ModalMSCornerS);
+    } else if (selectedImg === "MS Locker Hinges") {
+      setModalImg(ModalMSLockerHinges);
+    } else if (selectedImg === "MS folding Hinges") {
+      setModalImg(ModalMSfoldingHinges);
+    } else if (selectedImg === "MS C Clamp") {
+      setModalImg(ModalMSCClamp);
+    } else if (selectedImg === "SS Handle") {
+      setModalImg(ModalSSHandle);
+    } else if (selectedImg === "CocoNut Scraper") {
+      setModalImg(ModalCocoNutScraper);
+    } else if (selectedImg === "Coconut meat slicer") {
+      setModalImg(ModalCoconutmeatslicer);
+    } else if (selectedImg === "Latter box") {
+      setModalImg(ModalLatterbox);
+    } else if (selectedImg === "MS Air Vent grill") {
+      setModalImg(ModalMSAirVentgrill);
+    } else if (selectedImg === "Concrete Form Work PVC cone") {
+      setModalImg(ModalConcreteFormWorkPVCcone);
+    } else if (selectedImg === "SS H Burner") {
+      setModalImg(ModalSSHBurner);
+    } else if (selectedImg === "Metering Box") {
+      setModalImg(ModalMeteringBox);
+    } else if (selectedImg === "Locker") {
+      setModalImg(ModalLocker);
+    } else if (selectedImg === "SS Falafel Maker") {
+      setModalImg(ModalSSFalafelMaker);
+    } else if (selectedImg === "Cutlery Holder") {
+      setModalImg(ModalCutleryHolder);
+    } else if (selectedImg === "Knife") {
+      setModalImg(ModalKnife);
+    } else if (selectedImg === "") {
+      setModalImg();
     }
     if (modalImg.length > 0) {
       openModal();
@@ -71,7 +204,7 @@ const Product = () => {
     setModalIsOpen(true);
   };
 
-  console.log("data", data);
+  // console.log("data", data);
 
   const parameters = "crop=edges&cs=tinysrgb&fit=crop&fm=jpg&w=600&h=450";
 
@@ -92,17 +225,11 @@ const Product = () => {
               key={index}
               onClick={() => hanldeImageClick(entry.title)}
             >
-              {/* <a
-                href={entry.src}
-                target="_self"
-                className={styles.ProductCardImage}
-              > */}
               <img
                 src={`${entry.src}?${parameters}`}
                 className={styles.ProductImg}
                 alt="Product List Card UI"
               />
-              {/* </a> */}
               <div className={styles.ProductCardBody}>
                 <div className={styles.ProductCardTitle}>
                   <a href="#">{entry.title}</a>

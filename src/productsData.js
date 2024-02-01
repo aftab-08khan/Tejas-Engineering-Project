@@ -235,7 +235,7 @@ export const MildSteelAccessories = {
     {
       src: "/Mild Steel Accessories/MS Folding Hinges/MS Folding Hinges.jpg",
       title: "MS folding Hinges",
-      desc: "The small, solid and strong corner struts are enough to be installed as any shelf, such as bookcase, garden shelf, table and chair corner.",
+      desc: "MS Folding Hinge Notebook Table Leg Brackets, Desk Chair, Feet Extension, Self Locking Furniture.",
       size: " Hole Size: 5mm.Thickness: 2 mm. Size:68*12mm . Box contents: 4 x Corner Brackets",
       material: "Material: Mild Steel & Stainless Steel",
     },
@@ -293,7 +293,7 @@ export const Fabrications = {
   products: [
     {
       src: "/All Types Of Febrications/metter Box.JPG",
-      title: "Latter box",
+      title: "Letter box",
       desc: "All in 1 Multipurpose Letter Box/Suggestion Box/Complaint Box/Donation Box with Lock Table Top or Wall Mount .",
       size: " Size: As Per requirement",
       material: "Material: Stainless Steel",

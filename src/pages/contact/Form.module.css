@@ -279,7 +279,7 @@
 }
 @media (max-width: 600px) {
   .contacthead {
-    padding: 24px 72px;
+    padding: 24px 64px;
   }
   .formOuter {
     display: block;

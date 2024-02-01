@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Logo from "public/img/Logo2.png";
+import Hero from "../Hero/Hero";
 
 const Header = () => {
   return (
@@ -35,9 +36,13 @@ const Header = () => {
           <p className={`${styles.headerRightInfo2} mt-0 mb-2`}>
             For latest offers and prices
           </p>
-          <p className={`${styles.headerRightContact} mb-0 h2`}>
+          <a
+            href="https://api.whatsapp.com/send/?phone=918928284735&text=Welcome+to+Tejas+Engineering+Works.&type=phone_number&app_absent=0"
+            target="_blank"
+            className={`${styles.headerRightContact} mb-0 h2`}
+          >
             +91 89 282 84 735
-          </p>
+          </a>
         </div>
       </div>
     </>
